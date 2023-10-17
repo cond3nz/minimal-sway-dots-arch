@@ -185,7 +185,7 @@ client.urgent           #282828 #282828 #888888 #7c6f64   #7c6f64
 client.background       #282828
 bar {
     position top
-    status_command while date +'%w %Y-%m-%d %X'; do sleep 1; done
+    status_command ~/.config/sway/scripts/status
     font pango: terminus 16
     separator_symbol " | "
     colors {
