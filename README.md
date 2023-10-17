@@ -17,6 +17,6 @@ git clone https://github.com/cond3nz/minimal-sway-dots-arch.git
 cd minimal-sway-dots-arch
 cp -rf .config/* ~/.config/
 ```
-## ScreenshotS
+## Screenshots
 ![Alt text](screenshot.png)
 ![Alt text](screenshot1.png)
