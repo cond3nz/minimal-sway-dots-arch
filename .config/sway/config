@@ -17,15 +17,12 @@ input "type:keyboard" {
 #Screenshot
 bindsym $mod+Print exec ~/.config/sway/scripts/screenshot
 
-    
-#Make little windows floaty
-
-#Walpapers and borders
+#Borders
 default_border pixel 3
 for_window [tiling] border pixel 3
 
 
-# Use pamixer to adjust volume in ALSA.
+# Use pamixer to adjust volume in pipewire.
 bindsym XF86AudioRaiseVolume exec pamixer -i 5
 bindsym XF86AudioLowerVolume exec pamixer -d 5
 bindsym XF86AudioMute exec pamixer -t
