@@ -9,3 +9,5 @@ git clone https://github.com/cond3nz/minimal-sway-dots-arch.git
 cd minimal-sway-dots-arch
 ./install.sh
 ```
+## Screenshot
+![Alt text](screenshot.png)
