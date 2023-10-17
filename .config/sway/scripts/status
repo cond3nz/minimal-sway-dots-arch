@@ -1,0 +1,1 @@
+while date +'%a %Y-%m-%d %X '; do sleep 1; done
