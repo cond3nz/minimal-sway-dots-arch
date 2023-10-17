@@ -1,6 +1,6 @@
 # Minimalistic Sway Dotfiles and install script for archlinux with pipewire.
 
-### This config requires this packages: ```git sway dunst fish helix kitty qutebrowser ranger w3m rofi pamixer terminus-font```
+### This config requires this packages: ```git xorg-xwayland sway dunst fish helix kitty qutebrowser ranger w3m rofi pamixer terminus-font```
 
 ## Setup Guide for ArchLinux
 ```sh
