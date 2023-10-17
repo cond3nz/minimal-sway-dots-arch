@@ -1,0 +1,1 @@
+# minimal-sway-dots-arch
