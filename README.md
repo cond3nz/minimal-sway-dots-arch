@@ -27,6 +27,7 @@ $${\color{red}Download \space requirement \space  packages, \space then \space e
 ```sh
 git clone https://github.com/cond3nz/minimal-sway-dots-arch.git
 cd minimal-sway-dots-arch
+mkdir -p ~/.config
 cp -rf .config/* ~/.config/
 mkdir -p ~/.icons
 cp -rf .icons/* ~/.icons/
