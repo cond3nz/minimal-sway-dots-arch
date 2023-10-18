@@ -188,6 +188,7 @@ bar {
     position top
     status_command ~/.config/sway/scripts/status
     font pango: terminus 16
+    icon_theme Gruvbox-Plus-Dark
     separator_symbol " | "
     colors {
         background #282828
