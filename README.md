@@ -28,6 +28,10 @@ Download requirement packages, then exec:
 git clone https://github.com/cond3nz/minimal-sway-dots-arch.git
 cd minimal-sway-dots-arch
 cp -rf .config/* ~/.config/
+mkdir -p ~/.icons
+cp -rf .icons/* ~/.icons/
+mkdir -p ~/.themes
+cp -rf .themes/* ~/.themes/
 cp -f .gtkrc-2.0 ~/
 gsettings set org.gnome.desktop.interface icon-theme Gruvbox-Plus-Dark
 gsettings set org.gnome.desktop.interface gtk-theme simple-gruvbox
