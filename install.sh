@@ -7,7 +7,7 @@ mkdir -p ~/.themes
 cp -rf .themes/* ~/.themes/
 cp -f .gtkrc-2.0 ~/
 gsettings set org.gnome.desktop.interface icon-theme Gruvbox-Plus-Dark
-gsettings set org.gnome.desktop.interface gtk-theme Gruvbox-Dark-BL
+gsettings set org.gnome.desktop.interface gtk-theme simple-gruvbox
 gsettings set org.gnome.desktop.interface font-name "Terminus 11"
 sudo sh -c "echo QT_QPA_PLATFORMTHEME=gtk2 >> /etc/environment"
 sudo chsh $USER -s /bin/fish
