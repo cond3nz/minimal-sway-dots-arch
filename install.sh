@@ -4,6 +4,5 @@ cp -rf .config/* ~/.config/
 mkdir -p ~/.icons && cp -rf .icons/* ~/.icons/
 mkdir -p ~/.themes && cp -rf .themes/* ~/.themes/
 cp -f .gtkrc-2.0 ~/
-cp -f .xprofile ~/
 sudo sh -c "echo QT_QPA_PLATFORMTHEME=gtk2 >> /etc/environment"
 sudo chsh $USER -s /bin/fish
