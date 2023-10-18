@@ -1,5 +1,6 @@
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
 yay -S dunst fish helix kitty xorg-xwayland qutebrowser ranger rofi pamixer terminus-font w3m gtk2 gtk3 qt5-styleplugins qt6gtk2
+mkdir -p ~/.config
 cp -rf .config/* ~/.config/
 mkdir -p ~/.icons
 cp -rf .icons/* ~/.icons/
