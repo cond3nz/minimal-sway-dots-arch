@@ -3,5 +3,6 @@ yay -S dunst fish helix kitty xorg-xwayland qutebrowser ranger rofi pamixer term
 cp -rf .config/* ~/.config/
 mkdir -p ~/.icons && cp -rf .icons/* ~/.icons/
 mkdir -p ~/.themes && cp -rf .themes/* ~/.themes/
-cp .gtkrc-2.0 ~/
+cp -f .gtkrc-2.0 ~/
+cp -f .xprofile ~/
 sudo chsh $USER -s /bin/fish
