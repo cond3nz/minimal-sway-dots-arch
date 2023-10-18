@@ -9,6 +9,8 @@
 | File Manager| Ranger      |
 | Launcher    | Rofi        |
 | Shell       | Fish        |
+> [!IMPORTANT]
+> Now the **_GTK-4_** Theme is different from GTK-{2,3} and qt. .
 
 ### This config requires this packages: 
 ```git dunst fish helix kitty xorg-xwayland qutebrowser ranger rofi pamixer terminus-font w3m gtk2 gtk3 qt5-styleplugins qt6gtk2```
